@@ -1,26 +1,6 @@
-// Dependencies.
 import { Outlet, Link } from 'react-router-dom'
-
-// Components.
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
 import { Nav } from 'react-bootstrap'
 import { Container } from 'react-bootstrap'
-
-const TABS = Object.freeze({
-  welcome: {
-    name: 'welcome',
-    translationId: 'Welcome',
-  },
-  ordersList: {
-    name: 'ordersList',
-    translationId: 'Orders',
-  },
-  ordersNew: {
-    name: 'ordersNew',
-    translationId: 'New Order',
-  },
-})
 
 export const Home = () => {
   return (

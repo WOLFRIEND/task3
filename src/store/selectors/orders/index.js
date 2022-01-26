@@ -3,5 +3,9 @@
 // }
 
 export const ordersListSelector = (state) => {
-  return state.orders.data
+  return Object.values(state.orders.orders)
+}
+
+export const orderSelector = (state) => {
+  return state.orders.order
 }

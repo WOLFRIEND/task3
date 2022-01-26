@@ -10,6 +10,7 @@ import { Home } from 'pages/Home/Home'
 import { Welcome } from 'pages/Welcome/Welcome'
 import { OrdersList } from 'pages/OrdersList/OrdersList'
 import { OrderNew } from 'pages/OrderNew/OrderNew'
+import { OrderEdit } from 'pages/OrderEdit/OrderEdit'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           {/*<Route path="welcome" element={<Welcome />} />*/}
           <Route path="orders" element={<OrdersList />} />
           <Route path="orders/new" element={<OrderNew />} />
+          <Route path="orders/edit/:id" element={<OrderEdit />} />
         </Route>
       </Routes>
     </div>
